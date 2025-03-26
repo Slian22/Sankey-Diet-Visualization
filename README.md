@@ -39,7 +39,7 @@ git clone https://github.com/yourusername/DietImpactSankey.git
 cd DietImpactSankey
 ```
 
-### **2. Install Dependencies**
+### 2. Install Dependencies
 
 ```bash
 pip install pandas plotly scikit-learn
