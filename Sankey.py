@@ -114,4 +114,4 @@ fig.update_layout(
 )
 
 # Save as interactive HTML
-fig.write_html("sankey_compact_final.html")
+fig.write_html("sankey.html")

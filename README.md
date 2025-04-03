@@ -4,23 +4,21 @@ This project visualizes the pathway from **Sex** to **Age Group**, then to **Die
 
 The data comes from a real-world dietary study involving over 55,000 UK participants, highlighting how individual demographics and diet choices relate to critical environmental factors such as **GHG emissions, land use, water use**, and **biodiversity loss**.
 
-![Sankey Diagram Screenshot](sankey_compact_final.png)
+![Sankey Diagram Screenshot](sankey.png)
 
 ## 📁 Project Structure
 
-DietImpactSankey/
-
+```bash
+Sankey-Diet-Visualization/
 ├── dataset/
-
-│  └── Results_21Mar2022.csv     # Raw input dataset (must be placed here)
-
-├── sankey_visualization.py      # Main script to generate Sankey diagram
-
-├── sankey_compact_final.html     # Interactive output (browser-based)
-
-├── sankey_compact_final.png     # Screenshot used in report
-
+│   └── Results_21Mar2022.csv         # Raw input dataset (must be placed here)
+├── Sankey.py           # Main script to generate Sankey diagram
+├── sankey.html         # Interactive Sankey output (browser-based)
+├── sankey.png          # Screenshot used in report
+├── tableau/
+│   └── TreeMap.twb                   # Tableau workbook file for GHG Treemap
 └── README.md
+```
 
 ---
 
@@ -35,8 +33,8 @@ DietImpactSankey/
 ### 1. Clone this Repository
 
 ```bash
-git clone https://github.com/yourusername/DietImpactSankey.git
-cd DietImpactSankey
+git clone https://github.com/Slian22/Sankey-Diet-Visualization.git
+cd Sankey-Diet-Visualization
 ```
 
 ### 2. Install Dependencies
@@ -50,12 +48,14 @@ pip install pandas plotly scikit-learn
 Make sure the dataset is located in the dataset/ folder:
 
 ```bash
-python sankey_visualization.py
+python Sankey.py
 ```
 
 ### **📊Output Files**
 
-- **sankey_compact_final.html**: Interactive Sankey diagram (open in browser)
+> 💡 Use the `.png` for static report embedding, and `.html` for interactive exploration.
+
+- **sankey.html**: Interactive Sankey diagram (open in browser)
 
 ## **📈 Visualization Summary**
 
@@ -94,6 +94,12 @@ python sankey_visualization.py
 - Participant counts
 
 - Environmental indicators using MinMaxScaler
+
+## 📂 Tableau Treemap (Additional)
+
+The repository also includes a Tableau workbook (`TreeMap.twb`) located in the `tableau/` folder.  
+
+It shows a hierarchical **Treemap of GHG emissions** by **Diet Group → Sex → Age Group**.
 
 ## 📚 Citation
 
