@@ -95,11 +95,8 @@ python Sankey.py
 
 - Environmental indicators using MinMaxScaler
 
-## 📂 Tableau Treemap (Additional)
-
-The repository also includes a Tableau workbook (`TreeMap.twb`) located in the `tableau/` folder.  
-
-It shows a hierarchical **Treemap of GHG emissions** by **Diet Group → Sex → Age Group**.
+## 📂 Tableau Dashboard (Additional)
+The repository also includes a Tableau workbook located in the tableau/ folder.
 
 ## 📚 Citation
 
