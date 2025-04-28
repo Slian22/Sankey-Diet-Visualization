@@ -16,7 +16,7 @@ Sankey-Diet-Visualization/
 ├── sankey.html         # Interactive Sankey output (browser-based)
 ├── sankey.png          # Screenshot used in report
 ├── tableau/
-│   └── TreeMap.twb                   # Tableau workbook file for GHG Treemap
+│   └── TableauDashboard.twb                   # Tableau workbook file
 └── README.md
 ```
 
